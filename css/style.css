@@ -820,7 +820,7 @@ button {
 
 .triad-grid {
   display: grid;
-  grid-template-columns: 1fr 1.05fr 0.85fr;
+  grid-template-columns: 1.25fr 1fr;
   gap: 2.25rem;
 }
 
@@ -1939,7 +1939,7 @@ button {
   }
 
   .triad-col.triad-quote-col {
-    grid-column: span 2;
+    grid-column: span 1;
   }
 
   .connect-grid {
