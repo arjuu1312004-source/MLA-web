@@ -498,7 +498,7 @@ button {
   background: var(--bg-surface-elevated);
 }
 
-/* Hero Center Column (Cutout Visual) */
+/* Hero Center Column (Clean Photo - No Effects or Card) */
 .hero-col.hero-visual {
   position: relative;
   display: flex;
@@ -508,16 +508,7 @@ button {
 }
 
 .portrait-glow-halo {
-  position: absolute;
-  top: 15%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 90%;
-  height: 80%;
-  background: var(--hero-halo);
-  filter: blur(40px);
-  z-index: 1;
-  pointer-events: none;
+  display: none;
 }
 
 .portrait-wrapper {
@@ -527,6 +518,9 @@ button {
   z-index: 2;
   display: flex;
   justify-content: center;
+  background: transparent;
+  border: none;
+  box-shadow: none;
 }
 
 .hero-portrait-img {
@@ -534,23 +528,20 @@ button {
   height: auto;
   max-height: 680px;
   object-fit: contain;
-  filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.25));
+  filter: none;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
   transition: none;
 }
 
 .portrait-wrapper:hover .hero-portrait-img {
   transform: none;
+  filter: none;
 }
 
 .portrait-bottom-fade {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 70px;
-  background: var(--fade-gradient);
-  pointer-events: none;
-  z-index: 4;
+  display: none;
 }
 
 /* Hero Right Column (Metrics Stack) */
