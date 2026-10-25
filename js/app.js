@@ -166,7 +166,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'TKP-2026-1082': {
         name: 'Suresh Kumar P.',
         phone: '98471XXXXX',
-        panchayat: 'Thrikkaripur',
+        panchayat: 'Thrikaripur',
         ward: 'Ward 04, Kooliyad',
         category: 'PWD Roads & Bridges',
         details: 'Urgent tarring and culvert repair required on Kooliyad - Padanna rural stretch.',
@@ -388,7 +388,7 @@ document.addEventListener('DOMContentLoaded', () => {
       e.preventDefault();
       const name = document.getElementById('app-name').value;
       const date = document.getElementById('app-date').value;
-      alert(`Thank you, ${name}! Your appointment request for ${date} at the Thrikkaripur MLA Office has been forwarded to the Private Secretary. You will receive an SMS and WhatsApp confirmation shortly.`);
+      alert(`Thank you, ${name}! Your appointment request for ${date} at the Thrikaripur MLA Office has been forwarded to the Private Secretary. You will receive an SMS and WhatsApp confirmation shortly.`);
       appointmentForm.reset();
     });
   }
@@ -463,7 +463,7 @@ document.addEventListener('DOMContentLoaded', () => {
       category: 'DIGITAL EDUCATION & CAREERS',
       img: 'assets/images/project-skills.jpg',
       status: 'Phase 1 Deployed in 8 Schools',
-      region: 'Higher Secondary Schools in Thrikkaripur',
+      region: 'Higher Secondary Schools in Thrikaripur',
       scheme: 'Education Rejuvenation Mission',
       desc: 'Equipping youth in Kasaragod with high-demand digital economy capabilities. The program upgrades government schools with interactive digital display panels, broadband connectivity, robotics labs, competitive examination (UPSC/PSC/Banking) guidance hubs, and public skill incubation centers.'
     }
