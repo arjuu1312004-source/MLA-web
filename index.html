@@ -128,7 +128,7 @@
           <!-- Quick Action Buttons -->
           <div class="hero-cta-group">
             <a href="#citizen-desk" class="btn btn-primary">
-              <span data-en="Submit Grievance" data-ml="പരാതി നൽകാം">Submit Grievance</span>
+              <span data-en="Contact Office" data-ml="ഓഫീസുമായി ബന്ധപ്പെടാം">Contact Office</span>
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
                 <line x1="5" y1="12" x2="19" y2="12"></line>
                 <polyline points="12 5 19 12 12 19"></polyline>
@@ -427,23 +427,33 @@
       </div>
     </section>
 
-    <!-- SECTION: CITIZEN CONNECT / LET'S WORK TOGETHER (Interactive Helpdesk & Direct Office Access) -->
+    <!-- SECTION: CITIZEN CONNECT / LET'S WORK TOGETHER -->
     <section class="section-connect" id="citizen-desk">
       <div class="connect-grid">
         
-        <!-- Left Column: Contact Information & Direct Connect (Matching 'LET'S WORK TOGETHER' in image) -->
+        <!-- Left Column: Heading, Subtitle & Action Pill (Matching Reference Poster) -->
         <div class="connect-info-col">
           <div class="connect-heading-wrap">
             <h2 class="connect-title">
               <span data-en="LET'S WORK" data-ml="ഒരുമിച്ചു">LET'S WORK</span>
               <span class="title-highlight" data-en="TOGETHER ✦" data-ml="മുന്നേറാം ✦">TOGETHER ✦</span>
             </h2>
-            <p class="connect-subtitle" data-en="The MLA's office is open and accessible to all residents of Thrikkaripur. Whether you need to file a public petition, request assistance, or share development recommendations, we are at your service." data-ml="തൃക്കരിപ്പൂരിലെ ഓരോ പൗരനും എം.എൽ.എ ഓഫീസ് പൂർണ്ണമായും തുറന്നിരിക്കുന്നു. നിങ്ങളുടെ പരാതികൾ, നിർദ്ദേശങ്ങൾ, സഹായ അഭ്യർത്ഥനകൾ എന്നിവ ഞങ്ങളുമായി നേരിട്ട് പങ്കുവെക്കാം.">
-              The MLA's office is open and accessible to all residents of Thrikkaripur. Whether you need to file a public petition, request assistance, or share development recommendations, we are at your service.
+            <p class="connect-subtitle" data-en="The MLA's office is open and accessible to all residents of Thrikkaripur. Whether you need to reach out directly, request assistance, or share development recommendations, we are at your service." data-ml="തൃക്കരിപ്പൂരിലെ ഓരോ പൗരനും എം.എൽ.എ ഓഫീസ് പൂർണ്ണമായും തുറന്നിരിക്കുന്നു. നിങ്ങളുടെ നിർദ്ദേശങ്ങൾ, സഹായ അഭ്യർത്ഥനകൾ എന്നിവ ഞങ്ങളുമായി നേരിട്ട് പങ്കുവെക്കാം.">
+              The MLA's office is open and accessible to all residents of Thrikkaripur. Whether you need to reach out directly, request assistance, or share development recommendations, we are at your service.
             </p>
           </div>
 
-          <!-- Contact Details Row Items (Matching reference format) -->
+          <!-- Action Buttons in Left Col -->
+          <div class="connect-action-pill-group">
+            <button type="button" class="btn-pill-emergency" id="btn-open-emergency-bottom">
+              <span class="pulse-red-dot"></span>
+              <span data-en="View All Emergency Helplines ➔" data-ml="അടിയന്തര നമ്പറുകൾ കാണുക ➔">View All Emergency Helplines ➔</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Right Column: Direct Constituency Office Contact Details -->
+        <div class="connect-details-col">
           <div class="contact-rows-list">
             <div class="contact-row-item">
               <div class="contact-icon-box">
@@ -495,179 +505,6 @@
                 <span class="value" data-en="Opp. Mini Civil Station, Main Road, Thrikkaripur, Kasaragod - 671310, Kerala" data-ml="മിനി സിവിൽ സ്റ്റേഷന് എതിർവശം, മെയിൻ റോഡ്, തൃക്കരിപ്പൂർ, കാസർഗോഡ് - 671310">Opp. Mini Civil Station, Main Road, Thrikkaripur, Kasaragod - 671310, Kerala</span>
               </div>
             </div>
-          </div>
-
-          <!-- Action Buttons in Left Col -->
-          <div class="connect-action-pill-group">
-            <button type="button" class="btn-pill-emergency" id="btn-open-emergency-bottom">
-              <span class="pulse-red-dot"></span>
-              <span data-en="View All Emergency Helplines ➔" data-ml="അടിയന്തര നമ്പറുകൾ കാണുക ➔">View All Emergency Helplines ➔</span>
-            </button>
-          </div>
-        </div>
-
-        <!-- Right Column: Interactive Citizen Portal (File Grievance / Track Request / Book Appointment) -->
-        <div class="connect-portal-col">
-          <div class="portal-card">
-            
-            <!-- Portal Navigation Tabs -->
-            <div class="portal-tabs" role="tablist">
-              <button type="button" class="portal-tab active" data-tab="tab-submit" role="tab" aria-selected="true">
-                <span class="tab-icon">📝</span>
-                <span data-en="Submit Grievance" data-ml="പരാതി നൽകാം">Submit Grievance</span>
-              </button>
-              <button type="button" class="portal-tab" data-tab="tab-track" role="tab" aria-selected="false">
-                <span class="tab-icon">🔍</span>
-                <span data-en="Track Request" data-ml="നില പരിശോധിക്കാം">Track Request</span>
-              </button>
-              <button type="button" class="portal-tab" data-tab="tab-appointment" role="tab" aria-selected="false">
-                <span class="tab-icon">📅</span>
-                <span data-en="Book Visit" data-ml="കൂടിക്കാഴ്ച">Book Visit</span>
-              </button>
-            </div>
-
-            <!-- TAB 1: Submit Grievance Form -->
-            <div class="tab-pane active" id="tab-submit">
-              <form id="grievance-form" class="portal-form">
-                <div class="form-row">
-                  <div class="form-group">
-                    <label for="citizen-name" data-en="Full Name *" data-ml="പൂർണ്ണ നാമം *">Full Name *</label>
-                    <input type="text" id="citizen-name" placeholder="e.g. Rahul Varma" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="citizen-phone" data-en="Mobile Number *" data-ml="മൊബൈൽ നമ്പർ *">Mobile Number *</label>
-                    <input type="tel" id="citizen-phone" placeholder="e.g. 98470 12345" pattern="[0-9]{10}" required>
-                  </div>
-                </div>
-
-                <div class="form-row">
-                  <div class="form-group">
-                    <label for="panchayat-select" data-en="Grama Panchayat *" data-ml="ഗ്രാമപഞ്ചായത്ത് *">Grama Panchayat *</label>
-                    <select id="panchayat-select" required>
-                      <option value="" disabled selected data-en="Select Panchayat" data-ml="പഞ്ചായത്ത് തെരഞ്ഞെടുക്കുക">Select Panchayat</option>
-                      <option value="Thrikkaripur">Thrikkaripur (തൃക്കരിപ്പൂർ)</option>
-                      <option value="Valiyaparamba">Valiyaparamba (വലിയപറമ്പ്)</option>
-                      <option value="Cheruvathur">Cheruvathur (ചെറുവത്തൂർ)</option>
-                      <option value="Padanna">Padanna (പടന്ന)</option>
-                      <option value="Pilicode">Pilicode (പിലിക്കോട്)</option>
-                      <option value="Kayyur-Cheemeni">Kayyur-Cheemeni (കയ്യൂർ-ചീമേനി)</option>
-                    </select>
-                  </div>
-                  <div class="form-group">
-                    <label for="ward-number" data-en="Ward No. / Locality *" data-ml="വാർഡ് നമ്പർ / സ്ഥലം *">Ward No. / Locality *</label>
-                    <input type="text" id="ward-number" placeholder="e.g. Ward 07, Kooliyad" required>
-                  </div>
-                </div>
-
-                <div class="form-row">
-                  <div class="form-group">
-                    <label for="dept-category" data-en="Department / Category *" data-ml="വിഭാഗം *">Department / Category *</label>
-                    <select id="dept-category" required>
-                      <option value="" disabled selected data-en="Select Category" data-ml="വിഭാഗം തെരഞ്ഞെടുക്കുക">Select Category</option>
-                      <option value="PWD Roads & Infrastructure" data-en="PWD Roads & Bridges" data-ml="റോഡുകൾ / പാലങ്ങൾ">PWD Roads & Bridges</option>
-                      <option value="Drinking Water (KWA)" data-en="Drinking Water (KWA)" data-ml="കുടിവെള്ളം (KWA)">Drinking Water (KWA)</option>
-                      <option value="Electricity & Streetlights (KSEB)" data-en="Electricity (KSEB)" data-ml="വൈദ്യുതി (KSEB)">Electricity (KSEB)</option>
-                      <option value="Healthcare & Hospitals" data-en="Healthcare & Hospitals" data-ml="ആരോഗ്യം & ആശുപത്രികൾ">Healthcare & Hospitals</option>
-                      <option value="Education & Schools" data-en="Schools & Anganwadis" data-ml="വിദ്യാഭ്യാസം / സ്കൂളുകൾ">Schools & Anganwadis</option>
-                      <option value="Coastal & Fisherfolk Assistance" data-en="Coastal & Fishing Issues" data-ml="തീരദേശ പ്രശ്നങ്ങൾ">Coastal & Fishing Issues</option>
-                      <option value="Social Welfare & Pensions" data-en="Social Welfare & Pensions" data-ml="ക്ഷേമ പെൻഷനുകൾ">Social Welfare & Pensions</option>
-                      <option value="Revenue & Land Matters" data-en="Revenue & Land" data-ml="റവന്യൂ & പട്ടയം">Revenue & Land</option>
-                      <option value="General Petition" data-en="General Public Petition" data-ml="മറ്റ് പൊതു പരാതികൾ">General Public Petition</option>
-                    </select>
-                  </div>
-                  <div class="form-group">
-                    <label for="urgency-level" data-en="Priority Level" data-ml="മുൻഗണന">Priority Level</label>
-                    <select id="urgency-level">
-                      <option value="Normal" data-en="Normal Priority" data-ml="സാധാരണ">Normal Priority</option>
-                      <option value="Urgent" data-en="Urgent (7-Day Review)" data-ml="അടിയന്തിരം">Urgent (7-Day Review)</option>
-                      <option value="Emergency" data-en="Critical Emergency" data-ml="വളരെ അടിയന്തിരം">Critical Emergency</option>
-                    </select>
-                  </div>
-                </div>
-
-                <div class="form-group">
-                  <label for="grievance-details" data-en="Detailed Description *" data-ml="പരാതിയുടെ പൂർണ്ണ വിവരങ്ങൾ *">Detailed Description *</label>
-                  <textarea id="grievance-details" rows="3" placeholder="Please specify location, landmark, and the specific relief or action required..." required></textarea>
-                </div>
-
-                <div class="form-actions-row">
-                  <button type="submit" class="btn btn-submit-grievance" id="btn-submit-ticket">
-                    <span data-en="SUBMIT TO MLA'S OFFICE ➔" data-ml="പരാതി സമർപ്പിക്കാം ➔">SUBMIT TO MLA'S OFFICE ➔</span>
-                  </button>
-                  <span class="privacy-assurance">🔒 <span data-en="Your data is directly secured for MLA Office action." data-ml="വിവരങ്ങൾ പൂർണ്ണമായും സുരക്ഷിതമായിരിക്കും.">Your data is directly secured for MLA Office action.</span></span>
-                </div>
-              </form>
-            </div>
-
-            <!-- TAB 2: Track Request / Status Lookup -->
-            <div class="tab-pane" id="tab-track">
-              <div class="tracker-intro">
-                <p data-en="Enter your Grievance Tracking Token (e.g., TKP-2026-1082) or click below to inspect a sample verified ticket:" data-ml="നിങ്ങളുടെ ട്രാക്കിംഗ് നമ്പർ നൽകുകയോ താഴെയുള്ള സാമ്പിൾ പരിശോധിക്കുകയോ ചെയ്യുക:">
-                  Enter your Grievance Tracking Token (e.g., TKP-2026-1082) or click below to inspect a sample verified ticket:
-                </p>
-                <div class="quick-sample-chips">
-                  <button type="button" class="sample-chip" data-sample-id="TKP-2026-1082">Sample: TKP-2026-1082 (Road Repair)</button>
-                  <button type="button" class="sample-chip" data-sample-id="TKP-2026-4419">Sample: TKP-2026-4419 (Water Pipeline)</button>
-                </div>
-              </div>
-
-              <div class="tracker-input-group">
-                <input type="text" id="track-id-input" placeholder="Enter Tracking ID (e.g. TKP-2026-1082)">
-                <button type="button" id="btn-run-track" class="btn btn-track">
-                  <span data-en="Track Now" data-ml="പരിശോധിക്കുക">Track Now</span>
-                </button>
-              </div>
-
-              <!-- Result Container -->
-              <div id="tracker-result-box" class="tracker-result-card" style="display: none;">
-                <!-- Content dynamically populated by JS -->
-              </div>
-            </div>
-
-            <!-- TAB 3: Book MLA Appointment -->
-            <div class="tab-pane" id="tab-appointment">
-              <form id="appointment-form" class="portal-form">
-                <p class="appointment-notice" data-en="Direct meetings with MLA Sandeep Varier take place at the Thrikkaripur Constituency Office during assembly recess days. Please reserve your slot below:" data-ml="തൃക്കരിപ്പൂർ എം.എൽ.എ ഓഫീസിൽ സന്ദർശനം നടത്തുന്നതിനായി മുൻകൂട്ടി സമയം ബുക്ക് ചെയ്യുക:">
-                  Direct meetings with MLA Sandeep Varier take place at the Thrikkaripur Constituency Office during assembly recess days. Please reserve your slot below:
-                </p>
-                
-                <div class="form-row">
-                  <div class="form-group">
-                    <label for="app-name" data-en="Your Name *" data-ml="പേര് *">Your Name *</label>
-                    <input type="text" id="app-name" placeholder="Full Name" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="app-phone" data-en="Phone Number *" data-ml="ഫോൺ *">Phone Number *</label>
-                    <input type="tel" id="app-phone" placeholder="10-digit mobile" required>
-                  </div>
-                </div>
-
-                <div class="form-row">
-                  <div class="form-group">
-                    <label for="app-date" data-en="Preferred Date *" data-ml="തീയതി *">Preferred Date *</label>
-                    <input type="date" id="app-date" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="app-delegation" data-en="Number of Visitors" data-ml="സന്ദർശകരുടെ എണ്ണം">Number of Visitors</label>
-                    <select id="app-delegation">
-                      <option value="1 Person (Individual)">1 Person (Individual)</option>
-                      <option value="2-3 People (Family / Small Group)">2-3 People (Small Group)</option>
-                      <option value="4+ Delegation (Community / Association)">4+ Delegation (Association)</option>
-                    </select>
-                  </div>
-                </div>
-
-                <div class="form-group">
-                  <label for="app-purpose" data-en="Meeting Subject / Agenda *" data-ml="കൂടിക്കാഴ്ചയുടെ ഉദ്ദേശ്യം *">Meeting Subject / Agenda *</label>
-                  <textarea id="app-purpose" rows="2" placeholder="Brief outline of the topic or proposal to discuss..." required></textarea>
-                </div>
-
-                <button type="submit" class="btn btn-submit-grievance">
-                  <span data-en="REQUEST APPOINTMENT SLOT ➔" data-ml="കൂടിക്കാഴ്ചക്ക് സമയം അഭ്യർത്ഥിക്കുക ➔">REQUEST APPOINTMENT SLOT ➔</span>
-                </button>
-              </form>
-            </div>
-
           </div>
         </div>
 
@@ -867,57 +704,6 @@
     </div>
   </div>
 
-  <!-- MODAL: GRIEVANCE TICKET RECEIPT -->
-  <div class="modal-backdrop" id="receipt-modal" aria-hidden="true" role="dialog" aria-modal="true">
-    <div class="modal-card receipt-dialog">
-      <div class="modal-header text-center" style="position: relative;">
-        <button type="button" class="modal-close-btn" id="close-receipt-modal" aria-label="Close dialog" style="position: absolute; top: 1.25rem; right: 1.5rem;">&times;</button>
-        <div class="receipt-success-badge">✓</div>
-        <h3 class="modal-title" data-en="Grievance Registered Successfully!" data-ml="പരാതി വിജയകരമായി രജിസ്റ്റർ ചെയ്തു!">Grievance Registered Successfully!</h3>
-        <p class="modal-subtitle" data-en="Your petition has been logged into the MLA Office Citizen Redressal System." data-ml="നിങ്ങളുടെ പരാതി എം.എൽ.എ ഓഫീസിൽ രേഖപ്പെടുത്തിയിരിക്കുന്നു.">
-          Your petition has been logged into the MLA Office Citizen Redressal System.
-        </p>
-      </div>
-
-      <div class="modal-body">
-        <div class="receipt-ticket-box">
-          <div class="ticket-header-row">
-            <span class="receipt-code-label" data-en="TRACKING TOKEN" data-ml="ട്രാക്കിംഗ് ടോക്കൺ">TRACKING TOKEN</span>
-            <span class="receipt-date" id="receipt-timestamp">Today</span>
-          </div>
-          <div class="ticket-code-display" id="receipt-token-id">TKP-2026-0000</div>
-          
-          <div class="receipt-rows">
-            <div class="receipt-row">
-              <span data-en="Applicant Name:" data-ml="അപേക്ഷകൻ:">Applicant Name:</span>
-              <strong id="receipt-name">-</strong>
-            </div>
-            <div class="receipt-row">
-              <span data-en="Panchayat &amp; Ward:" data-ml="പഞ്ചായത്ത് &amp; വാർഡ്:">Panchayat &amp; Ward:</span>
-              <strong id="receipt-locality">-</strong>
-            </div>
-            <div class="receipt-row">
-              <span data-en="Category:" data-ml="വിഭാഗം:">Category:</span>
-              <strong id="receipt-category">-</strong>
-            </div>
-            <div class="receipt-row">
-              <span data-en="Current Status:" data-ml="നിലവിലെ അവസ്ഥ:">Current Status:</span>
-              <span class="status-badge-under-review" data-en="Forwarded to MLA Desk" data-ml="പരിഗണനയിൽ">Forwarded to MLA Desk</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="receipt-actions">
-          <button type="button" class="btn btn-primary" id="btn-copy-token">
-            <span data-en="Copy Tracking ID" data-ml="നമ്പർ കോപ്പി ചെയ്യുക">Copy Tracking ID</span>
-          </button>
-          <button type="button" class="btn btn-outline" id="btn-close-receipt">
-            <span data-en="Close &amp; Track" data-ml="ട്രാക്ക് ചെയ്യുക">Close &amp; Track</span>
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <!-- Core JavaScript -->
   <script src="js/app.js"></script>

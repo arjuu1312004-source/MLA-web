@@ -1077,13 +1077,13 @@ button {
 
 .connect-grid {
   display: grid;
-  grid-template-columns: 1fr 1.35fr;
-  gap: 3rem;
-  align-items: flex-start;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 3.5rem;
+  align-items: center;
 }
 
 .connect-heading-wrap {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .connect-title {
@@ -1109,14 +1109,14 @@ button {
   font-size: 1.02rem;
   color: var(--text-muted);
   line-height: 1.65;
-  max-width: 480px;
+  max-width: 520px;
 }
 
 .contact-rows-list {
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
-  margin-bottom: 2rem;
+  gap: 1.15rem;
+  margin-bottom: 0;
 }
 
 .contact-row-item {
